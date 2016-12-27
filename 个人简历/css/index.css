@@ -27,6 +27,9 @@ html {
 
 .music.move {
     -webkit-animation: musicMove 1s linear 0s infinite both;
+    -moz-animation: musicMove 1s linear 0s infinite both;
+    -o-animation: musicMove 1s linear 0s infinite both;
+    -ms-animation: musicMove 1s linear 0s infinite both;
     animation: musicMove 1s linear 0s infinite both;
 }
 
